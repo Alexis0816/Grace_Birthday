@@ -636,6 +636,7 @@ body, html{
 	text-transform: uppercase;
 	margin:0;
 	font-size:5em;
+	text-align: center;
 }
 
 .third--canvas .center--line h1 > span{
@@ -790,3 +791,66 @@ body, html{
 }
 
 
+/* Responsive Media Queries */
+@media (max-width: 768px) {
+  /* Ajustes para imágenes en .third--canvas */	
+	.star--bg img#b1{
+		left:1%;
+		width: 5rem;
+	}
+
+	.star--bg img#b2{
+		right:2.2%;
+		width: 5rem;
+	}
+
+	.third--canvas .center--line img#bl--left{
+		left:0.5em;
+		width: 4rem;
+	}
+	
+	.third--canvas .center--line img#bl--right{
+		right:0.5em;
+		width: 4rem;
+	}
+
+
+	.third--canvas .center--line h1{
+		font-size:2em;
+	}
+
+	.grace--content > img{
+		position: absolute;
+		top: 35%;
+		width: 17rem;
+	}
+
+
+
+	.third--canvas > img#gf1{
+		left:20%;
+		top: 85%;
+		width: 5rem;
+	}
+	
+	.third--canvas > img#gf2{
+		left: 37.5%;
+		top: 80%;
+		width: 7rem;
+	}
+	
+	.third--canvas > img#gf3{
+		left:60%;
+		top: 85%;
+		width: 5rem;
+	}
+
+	@keyframes thirdCanvasCenterLineOne{
+		from{
+			height:5px;
+		}
+		to{
+			height:100px;
+		}
+	}
+}
