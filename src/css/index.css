@@ -792,7 +792,7 @@ body, html{
 
 
 /* Responsive Media Queries */
-@media (max-width: 768px) {
+@media (max-width: 500px) {
 	.first--slide .slide--content h1{
 		font-size: 3em;
 	}
@@ -802,27 +802,27 @@ body, html{
 	}
 	
 
-	.slide--content--one h1.first{
-		font-size: 3em;
-	}
+
 	
-	.slide--content--one h2.first{
+	.slide--content--one h1.first{
 		font-size: 2em;
 	}
 	
+	.slide--content--one h2.first{
+		font-size: 1em;
+	}
+	
 	.slide--content--one h2.second{
-		font-size: 3em;
+		font-size: 2em;
 	}
 	
 	.slide--content--one h1.second{
-		font-size: 4em;
+		font-size: 3em;
 	}
 	
 
 	.second--canvas .content{
-
-		font-size:2em;
-
+		font-size:1em;
 	}
 
 
